@@ -1,7 +1,9 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("Images\\originalfaded.jpg")
+# img = cv.imread("Images\\originalfaded.jpg")
+img = cv.imread("Images\\girl.webp")
+
 if img is None:
     print("Error Loading in Image")
 else: 
